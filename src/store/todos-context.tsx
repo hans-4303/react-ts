@@ -33,7 +33,7 @@ state, setter 및 메서드를 전부 작성 */
 children은 자동으로 제공될 것이라던 설명과 다른 점이 발생
 
 이유는 아직 잘 모름 */
-const TodosContextProvider: React.FC<{ children: React.ReactNode }> = (
+const TodosContextProvider: React.FC<{children: React.ReactNode}> = (
   props: any
 ) => {
   const [todos, setTodos] = useState<Todo[]>([]);
